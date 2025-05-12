@@ -74,3 +74,19 @@ footer {
 .download-btn:hover {
   background-color: #007BFF;
 }
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
